@@ -23,10 +23,21 @@ public class Q2_ArraydekiSayilarinToplami {
             toplam+=arr1[i];
 
         }
-
+        System.out.println("========with For loop==========");
         System.out.println("Array deki sayiların toplamı= "+ toplam);
 
+        System.out.println("=========with While============");
 
+        toplam=0;
+        int index=0;
+
+        while (index<= arr1.length-1){
+
+            toplam+=arr1[index];
+            index++;
+        }
+
+        System.out.println("Array deki sayiların toplamı= "+ toplam);
 
 
 
